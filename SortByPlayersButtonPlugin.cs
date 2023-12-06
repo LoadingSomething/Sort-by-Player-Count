@@ -7,7 +7,7 @@ namespace SortByPlayersButton {
     public class SortByPlayersButtonPlugin : BaseUnityPlugin {
         private const string modGUID = "loadingsomething.SortByPlayersButton";
         private const string modName = "SortByPlayersButton";
-        private const string modVer = "1.0.0";
+        private const string modVer = "1.0.1";
 
         private void Awake() {
             Harmony harmony = new Harmony(modGUID);
